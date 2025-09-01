@@ -1,0 +1,70 @@
+.cards-image {
+    max-width: 100%;
+}
+
+.text-one {
+    font-size: 12px;
+}
+
+.text-three {
+    font-size: 16px;
+}
+
+.call-to-action {
+    flex-direction: row;
+}
+
+.purple-box {
+    background-color: #6f42c1;
+    color: #fff;
+    flex: 1;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-wrapper img {
+    height: 100%;
+    max-height: 250px;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    object-fit: cover;
+}
+
+.hero-style {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+
+@media (max-width: 768px) {
+
+    .hero-style {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+
+    .call-to-action {
+        flex-direction: column;
+    }
+
+    .purple-box {
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        height: auto;
+    }
+
+    .img-wrapper img {
+        width: 100%;
+        height: auto;
+        max-height: none;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+}

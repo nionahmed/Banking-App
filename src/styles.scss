@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --bs-purple-custom: rgb(83, 56, 158);
+  --bs-purple-light: rgb(127, 86, 217);
+}
+
+.bg-purple {
+  background-color: var(--bs-purple-custom) !important;
+}
+
+.text-purple {
+  color: var(--bs-purple-custom) !important;
+}
+
+.btn-purple {
+  background-color: var(--bs-purple-light) !important;
+  color: #fff !important;
+  border: none;
+}
