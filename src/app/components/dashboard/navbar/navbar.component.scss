@@ -1,0 +1,11 @@
+.nav-style {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+
+@media (max-width: 768px) {
+    .nav-style {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+}
